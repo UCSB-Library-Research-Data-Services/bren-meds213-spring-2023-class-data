@@ -3,7 +3,7 @@
 # We will be using an adapted dataset from a Dryad deposit as an example: https://doi.org/10.5061/dryad.dz08kprw0
 # Please refer to the insert-record.csv, methods.md, abstract.md and README-losapio.txt files to complete this exercise.
 
-# If you haven't yet, time two install two required packages
+# If you haven't yet, take time to install two required packages
 
 install.packages("EML")
 install.packages("emld") #an effective back-end for other 'R'-based tools working with 'EML
@@ -37,7 +37,7 @@ coverage <-
 # Contact Info  
  
 
-# Time for some keywords! As we learned these are important for findability.
+# Time for some keywords! As we learned, these are important for findability.
 # We will create a keywordSet which is essentially a list of lists
 # We may also refer to controlled vocabularies and specific thesaurus for terms such as LTER's (https://vocab.lternet.edu/)
 
@@ -77,6 +77,6 @@ eml <- list(
 # If you got [1] TRUE that means success!
 
 
-# Wait! We are missing the attribute metadata at the file-level which is the heart of an EML dataset record!
+# Wait! We are missing the attribute metadata at the file level, which is the heart of an EML dataset record!
 # We will work on a separate script file (dataTable).
 # Make sure to copy it here when ready, and add the dataTable to the elements's list before re-running the code.
